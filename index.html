@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Code Wonders Academy</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+  
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <img src="code.png" alt="Code Wonders Logo" class="logo" />
+    <h1>Code Wonders Academy</h1>
+    <p class="slogan en">Building a generation that builds the future</p>
+    <p class="slogan ar">نبني جيلاً… يصنع المستقبل!</p>
+    <a href="https://wa.me/201060572506" target="_blank" class="join-btn">انضم الآن</a>
+
+    
+  </header>
+<!-- Navigation -->
+<nav class="navbar">
+  
+
+  <button class="hamburger" id="hamburger">☰</button>
+  <img src="flag.png" alt="Logo" class="flag-logo">
+
+  <div class="nav-links" id="nav-links">
+    <a href="#about" class="en">About Us</a>
+    <a href="#about" class="ar">من نحن</a>
+    <a href="#courses" class="en">Courses</a>
+    <a href="#courses" class="ar">كورساتنا</a>
+    <a href="#our-channel" class="en">Our Channel</a>
+    <a href="#our-channel" class="ar">قناتنا</a>
+    <a href="#contact" class="en">Contact</a>
+    <a href="#contact" class="ar">تواصل معنا</a>
+    <button id="lang-toggle">AR / EN</button>
+  </div>
+</nav>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="card ar">
+      <p>
+        تأسست أكاديمية عجائب البرمجة على يد المهندسة رانيا عبدالرحمن، مدربة برمجة شغوفة بتعليم الأطفال مهارات البرمجة والتفكير المنطقي بطريقة ممتعة وسهلة. تهدف الأكاديمية إلى غرس حب التكنولوجيا والإبداع في عقول الأطفال منذ الصغر.
+      </p>
+      <a href="https://ranyaabdelrahman.github.io/portfolio/" target="_blank" class="btn">ملفي الشخصي</a>
+    </div>
+
+    <div class="card en">
+      <p>
+        Code Wonders Academy was founded by Engineer Rania Abdelrahman, a passionate programming instructor dedicated to teaching children coding skills and logical thinking in a fun and simple way. The academy aims to instill a love for technology and creativity in children’s minds from an early age.
+      </p>
+      <a href="https://ranyaabdelrahman.github.io/portfolio/" target="_blank" class="btn">My Portfolio</a>
+    </div>
+  </section>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Courses Section</title>
+<style>
+  body {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    background: #1a5fe9;
+    margin: 0;
+    padding: 20px;
+  }
+
+  .buttons {
+    margin-bottom: 20px;
+  }
+
+  button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #00d736;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #005fa3;
+  }
+
+  .section h2 {
+    margin-bottom: 20px;
+  }
+
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .course-card {
+    background: #fffffe;;
+    border-radius: 15px;
+    padding: 15px;
+    width: 230px;
+    box-shadow: 0 4px 8px  #005ea3;
+    transition: transform 0.3s ease;
+  }
+
+  .course-card:hover {
+    transform: translateY(-5px);
+  }
+
+  .ar {
+    display: none;
+    direction: rtl;
+    font-family: "Cairo", sans-serif;
+  }
+</style>
+</head>
+<body>
+
+
+</div>
+<!-- Courses Section -->
+<section id="courses" class="section">
+  <h2 class="en">🎓Our Courses</h2>
+  <h2 class="ar">🎓كورساتنا</h2>
+
+  <div class="cards-container">
+    <div class="course-card">
+      💻 
+      <h3 class="en">Programming Basics</h3>
+      <h3 class="ar">أساسيات البرمجة</h3>
+      <p class="en">Start your coding journey<br><b>Age:</b> 7–12</p>
+      <p class="ar">ابدأ رحلتك في عالم الكود<br><b>الفئة العمرية:</b> 7–12 سنة</p>
+    </div>
+
+    <div class="course-card">
+      🐍 
+      <h3 class="en">Python Basics</h3>
+      <h3 class="ar">أساسيات بايثون</h3>
+      <p class="en">Discover the world of Python programming<br><b>Age:</b> 9–14</p>
+      <p class="ar">اكتشف عالم برمجة بايثون<br><b>الفئة العمرية:</b> 9–14 سنة</p>
+    </div>
+
+    <div class="course-card">
+      📱 
+      <h3 class="en">Mobile Applications</h3>
+      <h3 class="ar">تطبيقات الموبايل</h3>
+      <p class="en">Create your own simple mobile apps from scratch!<br><b>Age:</b> 9–14</p>
+      <p class="ar">أنشئ تطبيقاتك البسيطة من الصفر!<br><b>الفئة العمرية:</b> 9–14 سنة</p>
+    </div>
+
+    <div class="course-card">
+      🌐 
+      <h3 class="en">Web Development</h3>
+      <h3 class="ar">تطوير الويب</h3>
+      <p class="en">Build your first website with colorful designs and animations!<br><b>Age:</b> 9–14</p>
+      <p class="ar">اصنع أول موقع إلكتروني لك بتصميمات وألوان متحركة!<br><b>الفئة العمرية:</b> 9–14 سنة</p>
+    </div>
+
+    <div class="course-card">
+      🤖 
+      <h3 class="en">Artificial Intelligence</h3>
+      <h3 class="ar">الذكاء الاصطناعي</h3>
+      <p class="en">Dive into the world of Artificial Intelligence<br><b>Age:</b> 9–14</p>
+      <p class="ar">انطلق في عالم الذكاء الاصطناعي المدهش<br><b>الفئة العمرية:</b> 9–14 سنة</p>
+    </div>
+
+    <div class="course-card">
+      📊 
+      <h3 class="en">Data Analysis</h3>
+      <h3 class="ar">تحليل البيانات</h3>
+      <p class="en">Learn how to explore and visualize data using Excel and Power BI<br><b>Age:</b> 9–14</p>
+      <p class="ar">تعلم كيفية استكشاف البيانات وتمثيلها بصريًا باستخدام Excel وPower BI<br><b>الفئة العمرية:</b> 9–14 سنة</p>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Channel -->
+<section id="our-channel" class="section">
+  <h2 class="en">📺 Our Channel </h2>
+  <h2 class="ar">📺 قناتنا </h2>
+
+  <div class="channel-gallery">
+    <div class="channel-card">
+      <h3 class="en">Coding Course For Kids</h3>
+      <h3 class="ar">دورة البرمجة للأطفال</h3>
+      <a href="https://www.youtube.com/playlist?list=PLTxoY-6rzKNtS77P5q-dP3y1R0wchaSmn" target="_blank" class="preview-btn en">Preview</a>
+      <a href="https://www.youtube.com/playlist?list=PLTxoY-6rzKNtS77P5q-dP3y1R0wchaSmn" target="_blank" class="preview-btn ar">معاينة</a>
+    </div>
+
+    <div class="channel-card">
+      <h3 class="en">Python Projects</h3>
+      <h3 class="ar">مشروعات بايثون</h3>
+      <a href="https://www.youtube.com/playlist?list=PLTxoY-6rzKNtvoDPbarf_dKt2uTGgPsHP" target="_blank" class="preview-btn en">Preview</a>
+      <a href="https://www.youtube.com/playlist?list=PLTxoY-6rzKNtvoDPbarf_dKt2uTGgPsHP" target="_blank" class="preview-btn ar">معاينة</a>
+    </div>
+
+    <div class="channel-card">
+      <h3 class="en">Data Analysis Projects</h3>
+      <h3 class="ar">مشروعات تحليل البيانات</h3>
+      <a href="https://www.youtube.com/playlist?list=PLTxoY-6rzKNvj0-1CIAdvLJKpkcD2ggJ2" target="_blank" class="preview-btn en">Preview</a>
+      <a href="https://www.youtube.com/playlist?list=PLTxoY-6rzKNvj0-1CIAdvLJKpkcD2ggJ2" target="_blank" class="preview-btn ar">معاينة</a>
+    </div>
+
+    <div class="channel-card">
+      <h3 class="en">PictoBlox Projects</h3>
+      <h3 class="ar">مشروعات PictoBlox</h3>
+      <a href="https://www.youtube.com/playlist?list=PLTxoY-6rzKNtF4FJqqbjqxDAjz_IKmCgA" target="_blank" class="preview-btn en">Preview</a>
+      <a href="https://www.youtube.com/playlist?list=PLTxoY-6rzKNtF4FJqqbjqxDAjz_IKmCgA" target="_blank" class="preview-btn ar">معاينة</a>
+    </div>
+
+    <div class="channel-card">
+      <h3 class="en">App Lab Projects</h3>
+      <h3 class="ar">مشروعات App Lab</h3>
+      <a href="https://www.youtube.com/playlist?list=PLTxoY-6rzKNtRXofCuOze7ngDmoeyCrJl" target="_blank" class="preview-btn en">Preview</a>
+      <a href="https://www.youtube.com/playlist?list=PLTxoY-6rzKNtRXofCuOze7ngDmoeyCrJl" target="_blank" class="preview-btn ar">معاينة</a>
+    </div>
+  </div>
+</section>
+
+<style>
+  /* نفس تنسيق اللغة من الأقسام السابقة */
+  .ar {
+    display: none;
+    direction: rtl;
+    font-family: "Cairo", sans-serif;
+  }
+
+  .channel-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .channel-card {
+    background: white;
+    border-radius: 15px;
+    padding: 15px;
+    width: 230px;
+    box-shadow: 0 4px 8px rgba(40, 103, 219, 0.823);
+    transition: transform 0.3s ease;
+  }
+
+  .channel-card:hover {
+    transform: translateY(-5px);
+  }
+
+  .preview-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #0078d7;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .preview-btn:hover {
+    background-color: #005fa3;
+  }
+</style>
+
+<script>
+  // نفس سكريبت التبديل المستخدم في الموقع كله
+  function showArabic() {
+    document.querySelectorAll('.en').forEach(el => el.style.display = 'none');
+    document.querySelectorAll('.ar').forEach(el => el.style.display = 'block');
+    document.body.style.direction = 'rtl';
+  }
+
+  function showEnglish() {
+    document.querySelectorAll('.ar').forEach(el => el.style.display = 'none');
+    document.querySelectorAll('.en').forEach(el => el.style.display = 'block');
+    document.body.style.direction = 'ltr';
+  }
+</script>
+<!-- Contact -->
+<section id="contact" class="section">
+  <h2 class="en">📞 Contact Info</h2>
+  <h2 class="ar">📞 معلومات التواصل</h2>
+
+  <!-- الحاوية الرئيسية للأيقونات -->
+  <div class="contact-grid">
+    <a href="https://wa.me/201060572506" target="_blank" class="contact-icon">
+      <img src="whatsapp1.png" alt="WhatsApp" />
+    </a>
+    <a href="mailto:r_ranya44@hotmail.com" class="contact-icon">
+      <img src="email.png" alt="Email" />
+    </a>
+    <a href="https://www.youtube.com/@ZeyadAshraf312" target="_blank" class="contact-icon">
+      <img src="youtube.png" alt="YouTube" />
+    </a>
+    <a href="https://www.linkedin.com/in/rania-saleh-933b062b6/" target="_blank" class="contact-icon">
+      <img src="linkedin.png" alt="LinkedIn" />
+    </a>
+    <a href="https://github.com/RanyaAbdelrahman" target="_blank" class="contact-icon">
+      <img src="github.jpg" alt="GitHub" />
+    </a>
+  </div>
+</section>
+
+<script>
+  // نفس الدوال العامة للترجمة المستخدمة في باقي الصفحة
+  function showArabic() {
+    document.querySelectorAll('.en').forEach(el => el.style.display = 'none');
+    document.querySelectorAll('.ar').forEach(el => el.style.display = 'block');
+    document.body.style.direction = 'rtl';
+  }
+
+  function showEnglish() {
+    document.querySelectorAll('.ar').forEach(el => el.style.display = 'none');
+    document.querySelectorAll('.en').forEach(el => el.style.display = 'block');
+    document.body.style.direction = 'ltr';
+  }
+</script>
+
+  <!-- Floating WhatsApp -->
+  <a href="https://wa.me/201060572506" class="floating-whatsapp" target="_blank">
+    <img src="whatsapp1.png" alt="WhatsApp" />
+  </a>
+
+  <footer>
+    <p>© 2025 Code Wonders Academy | Designed by Rania Abdelrahman</p>
+  </footer>
+</body>
+</html>
